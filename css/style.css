@@ -1,0 +1,58 @@
+* {
+	box-sizing: border-box;
+	font-size: 16px;
+}
+
+body {
+	background-color: #4682B4;
+}
+
+.input-wrap {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+#input_1 {
+	margin-right: 25px;
+	text-align: center;
+	padding: 5px;
+}
+
+#input_2 {
+	margin-left: 25px;
+	text-align: center;
+	padding: 5px;
+}
+
+#input_3 {
+	margin-top: 50px;
+	text-align: center;
+	padding: 5px;
+}
+
+.input-wrapper {
+	display: flex;
+	justify-content: center;
+}
+
+.btn-wrap {
+	width: 400px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+.calc-btn,
+.clear-btn {
+	padding: 10px 50px;
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+.title {
+	text-align: center;
+	margin-top: 100px;
+	font-size: 32px;
+}
